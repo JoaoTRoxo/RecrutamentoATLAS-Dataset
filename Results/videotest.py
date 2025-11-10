@@ -3,7 +3,7 @@ import cv2
 
 model = YOLO("weights/best100epochs32batch.pt") 
 
-video_path = "2711128-uhd_3840_2160_24fps.mp4"
+video_path = "input.mp4"
 cap = cv2.VideoCapture(video_path)
 
 while True:
